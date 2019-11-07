@@ -16,10 +16,7 @@ from aws_services import send_message_to_sqs
 # ACCESS_TOKEN_KEY= os.getenv("ACCESS_TOKEN_KEY")
 # ACCESS_TOKEN_SECRET= os.getenv("ACCESS_TOKEN_SECRET")
 
-CONSUMER_KEY='YcIXq8uEdENAARiFsanLTwUDN'
-CONSUMER_SECRET='T46jBbiKEJsMn3iNnddEFaffd3FEHYKFliPjyfrftVGtcXkeDd'
-ACCESS_TOKEN_KEY='1167833051897978882-0XLNJE7vBCSoKGf3l3kNS4Homgw7Rn'
-ACCESS_TOKEN_SECRET='Wn8hyqmoAum736ae5opbBLytIEEgauok5KE61eO75zTeL'
+
 
 
 def retrieve_new_tweets(search_query="#ellen", keyword_id=1, since_tweet_id=None):  
