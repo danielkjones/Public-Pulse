@@ -1,14 +1,19 @@
 import psycopg2
+from config import Config
 
 
 def _execute_select_query(query_string):
+    USERNAME = Config().postgres["user"]
+    PASSWORD = Config().postgres["password"]
+    HOST = Config().postgres["host"]
+    PORT = Config().postgres["port"]
     try:
         # create a connection to the database
         conn = psycopg2.connect(
-            user="postgres",
-            password="pword",
-            host="localhost",
-            port="5432"
+            user=USERNAME,
+            password=PASSWORD,
+            host=HOST,
+            port=PORT
         )
         # create a cursor that can execute queries
         cursor = conn.cursor()

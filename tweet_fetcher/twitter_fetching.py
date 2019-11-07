@@ -9,15 +9,14 @@ https://bhaskarvk.github.io/2015/01/how-to-use-twitters-search-rest-api-most-eff
 """
 import tweepy
 import json
+from config import Config
 from aws_services import send_message_to_sqs
-
-# CONSUMER_KEY= os.getenv("CONSUMER_KEY")
-# CONSUMER_SECRET= os.getenv("CONSUMER_SECRET")
-
-
 
 
 def retrieve_new_tweets(search_query="#ellen", keyword_id=1, since_tweet_id=None):  
+    # Get the configured API Keys for Twitter Auth
+    CONSUMER_KEY = Config().twitter_api["consumer_key"]
+    CONSUMER_SECRET = Config().twitter_api["consumer_secret"]
     # Need to use "application-only auth" for maximum rate limit with Search API
     auth = tweepy.AppAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
