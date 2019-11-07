@@ -1,0 +1,3702 @@
+[
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-22T06:01:40.284Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6919140758652194,
+            "negative": 0.9906951743214651,
+            "neutral": 0.8882268294064928
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-03T10:15:25.849Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.05548146878701443,
+            "negative": 0.4650466286463808,
+            "neutral": 0.0762875577182418
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-12T07:55:06.824Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.3104006263246053,
+            "negative": 0.5768391701575148,
+            "neutral": 0.4904458081880707
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-16T03:34:24.291Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.7303737085448776,
+            "negative": 0.7585806863946567,
+            "neutral": 0.3049888866232866
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-14T15:52:33.537Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.3889630260633361,
+            "negative": 0.8179394925580594,
+            "neutral": 0.5247807748078095
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-10T21:10:27.508Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6181745560559231,
+            "negative": 0.658079881487599,
+            "neutral": 0.9527936903124248
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-11-05T21:26:10.329Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5921370504389116,
+            "negative": 0.29329265738131083,
+            "neutral": 0.2858763438056118
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-10T11:52:13.144Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.16222262956419153,
+            "negative": 0.27941370149293077,
+            "neutral": 0.2695262632321327
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-02T08:59:01.742Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5913014240798729,
+            "negative": 0.6990663024078998,
+            "neutral": 0.9797834006503952
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-04T20:49:27.115Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.2514238440628751,
+            "negative": 0.4116403471665069,
+            "neutral": 0.3003547665867601
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-09T04:33:24.456Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.41156203477551134,
+            "negative": 0.8251704033667238,
+            "neutral": 0.09248968111800604
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-08T03:16:56.127Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.1306670333306712,
+            "negative": 0.8951864801029243,
+            "neutral": 0.3547302030900623
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-10T15:40:42.920Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5410551328288713,
+            "negative": 0.12624145343614068,
+            "neutral": 0.6456563545400764
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-31T19:59:55.175Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5052501951779924,
+            "negative": 0.08892958228282422,
+            "neutral": 0.36947438541677413
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-30T10:04:49.272Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6405772780081374,
+            "negative": 0.9447888147652386,
+            "neutral": 0.3028181938646404
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-01T14:04:25.869Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6210678152547859,
+            "negative": 0.7118131565866712,
+            "neutral": 0.6429680047416939
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-30T01:00:16.408Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.3453657831944743,
+            "negative": 0.5188550441935766,
+            "neutral": 0.7719916222178769
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-17T04:14:46.873Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5352678757175906,
+            "negative": 0.44263980844509687,
+            "neutral": 0.08605538975145421
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-28T17:17:36.082Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.7974289961809424,
+            "negative": 0.32818675215549264,
+            "neutral": 0.3401865731984308
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-07-31T06:13:47.506Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.0324352216798407,
+            "negative": 0.2377788088714914,
+            "neutral": 0.29392868265185546
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-20T02:24:04.603Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.4455936833462111,
+            "negative": 0.7199526204849307,
+            "neutral": 0.02615926271851854
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-09T18:08:01.081Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.2568732931747264,
+            "negative": 0.5507072019281998,
+            "neutral": 0.9130691460010771
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-07T03:35:34.048Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.9945858061831554,
+            "negative": 0.4287520606084192,
+            "neutral": 0.34319600673260586
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-26T15:16:13.113Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.28074728839197527,
+            "negative": 0.3905591700073616,
+            "neutral": 0.6541411296084005
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-30T23:40:49.531Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.34106651754432193,
+            "negative": 0.489216153987289,
+            "neutral": 0.526184758567025
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-06T16:43:01.323Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.29150687157358557,
+            "negative": 0.5933913954794665,
+            "neutral": 0.4500859596027309
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-07T14:27:17.987Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6488165573116014,
+            "negative": 0.3548782963792667,
+            "neutral": 0.5987314458608559
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-19T12:09:09.702Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.3181587812695337,
+            "negative": 0.8356235029988051,
+            "neutral": 0.36385915881722974
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-15T03:23:26.477Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.9163304112059873,
+            "negative": 0.7647827867614707,
+            "neutral": 0.3403893106146494
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-20T21:11:34.450Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.9944209538177589,
+            "negative": 0.5730883274721046,
+            "neutral": 0.8058538001131195
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-05T11:24:12.519Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5605902584089222,
+            "negative": 0.7930921206372152,
+            "neutral": 0.7403511968682859
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-09T04:57:11.053Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.02291090879807811,
+            "negative": 0.09891033490743206,
+            "neutral": 0.4731681820391014
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-25T14:57:32.622Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.1847196394937316,
+            "negative": 0.36737694829147616,
+            "neutral": 0.8230458069424089
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-26T21:53:44.350Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6984039730511427,
+            "negative": 0.22534892559678243,
+            "neutral": 0.03240734487452368
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-29T18:42:20.855Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5376580725002627,
+            "negative": 0.3019761498672082,
+            "neutral": 0.8703687313202753
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-09T16:40:49.580Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.026659659909044953,
+            "negative": 0.9894582387832196,
+            "neutral": 0.6375970061198686
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-20T20:36:30.145Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6147373588287481,
+            "negative": 0.3466977188927347,
+            "neutral": 0.8783674413617844
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-11-04T06:37:41.426Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.27981071096853816,
+            "negative": 0.9997372931779716,
+            "neutral": 0.3114244900475269
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-29T05:26:54.162Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6567170002049407,
+            "negative": 0.9797553783956756,
+            "neutral": 0.06329968710614287
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-03T19:37:28.931Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.3609184137098125,
+            "negative": 0.9849463680967248,
+            "neutral": 0.07928701678634309
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-11-01T17:06:07.044Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.8692550921431523,
+            "negative": 0.9158616989895587,
+            "neutral": 0.2978064384360073
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-17T17:32:10.441Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.9400324284563393,
+            "negative": 0.574076333303075,
+            "neutral": 0.5912654348908812
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-06T17:50:43.243Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.3852252469539368,
+            "negative": 0.005092621173041323,
+            "neutral": 0.2068323302684718
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-07T23:43:41.806Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.19223909235360193,
+            "negative": 0.7416667838021624,
+            "neutral": 0.02618498093035515
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-29T22:06:04.932Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.7506038592222313,
+            "negative": 0.085182619610082,
+            "neutral": 0.562434238415892
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-24T04:45:21.169Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6895116435639064,
+            "negative": 0.2705923510195525,
+            "neutral": 0.6410050773389298
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-11-06T16:21:58.203Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.7498719565289689,
+            "negative": 0.45191040033726826,
+            "neutral": 0.9883985748750486
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-18T16:13:10.619Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.01223728651738476,
+            "negative": 0.4107956106873625,
+            "neutral": 0.23523239334480617
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-30T19:35:22.124Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.762403672009837,
+            "negative": 0.3927425180406072,
+            "neutral": 0.46897099896169014
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-25T22:04:15.673Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.38591305906637663,
+            "negative": 0.9709629861071842,
+            "neutral": 0.09785729802266774
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-04T13:27:02.434Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.14152474312697438,
+            "negative": 0.9719926670636456,
+            "neutral": 0.8089804742326383
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-17T00:46:20.593Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6315846745072813,
+            "negative": 0.70518210311149,
+            "neutral": 0.46524267001125374
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-19T13:01:23.692Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.8369937472607474,
+            "negative": 0.2344035183265718,
+            "neutral": 0.6910350744787979
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-18T10:57:52.436Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.12498106726384628,
+            "negative": 0.1652774461151585,
+            "neutral": 0.9036317853700542
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-14T18:41:41.662Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6824726155379386,
+            "negative": 0.7009295719745361,
+            "neutral": 0.8899822226145033
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-11T12:30:52.847Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.12076388181517483,
+            "negative": 0.9376914271537768,
+            "neutral": 0.5163190862147198
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-20T17:12:22.653Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.16717751007152915,
+            "negative": 0.2766539285926619,
+            "neutral": 0.8941387575916802
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-07T00:51:07.797Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.10495499468714442,
+            "negative": 0.7938523744269856,
+            "neutral": 0.7006549102839752
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-04T08:15:29.819Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5689132432754544,
+            "negative": 0.17961713006277913,
+            "neutral": 0.2858157108790276
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-24T02:38:57.343Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.4795756024486344,
+            "negative": 0.39389330975590364,
+            "neutral": 0.2714387604179078
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-26T11:52:32.512Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.09203227621632615,
+            "negative": 0.23986456186990712,
+            "neutral": 0.5049787367151086
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-11T10:11:10.738Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6899237715706397,
+            "negative": 0.6365660663647155,
+            "neutral": 0.9269663091518412
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-22T20:07:12.934Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.9175102167026212,
+            "negative": 0.8940437448040979,
+            "neutral": 0.5099118410297208
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-29T00:14:01.480Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.814094750097557,
+            "negative": 0.06783761460547066,
+            "neutral": 0.8059277606160267
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-12T19:23:47.833Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.9887636063719327,
+            "negative": 0.48720434217349284,
+            "neutral": 0.8707825389231698
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-11T08:46:34.822Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6027449366452502,
+            "negative": 0.4201420891214527,
+            "neutral": 0.8555653294411041
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-11-05T19:25:31.430Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.7260957509011288,
+            "negative": 0.4933545862938722,
+            "neutral": 0.5919495002153079
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-24T18:29:07.333Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.2334283508334416,
+            "negative": 0.6107652064924147,
+            "neutral": 0.9405963827454209
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-15T00:09:17.882Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.9378324115416226,
+            "negative": 0.3067056863059401,
+            "neutral": 0.8474079847772977
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-27T08:31:35.227Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.932826242414434,
+            "negative": 0.221964753348733,
+            "neutral": 0.810548555861565
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-14T09:47:00.742Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.9542737139275039,
+            "negative": 0.42680689629029556,
+            "neutral": 0.08496600984726932
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-18T02:24:06.444Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.627312358646327,
+            "negative": 0.856202568192231,
+            "neutral": 0.2989218491739227
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-22T00:28:12.266Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.21665843427270448,
+            "negative": 0.8467568422463323,
+            "neutral": 0.41855734800088684
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-23T14:44:40.355Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5355376511360486,
+            "negative": 0.983989952342815,
+            "neutral": 0.522074099325675
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-22T07:13:38.311Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6141717207700041,
+            "negative": 0.5734047703570455,
+            "neutral": 0.8053186842474136
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-30T22:51:50.419Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5623326155060664,
+            "negative": 0.09194138327674195,
+            "neutral": 0.27460835789776317
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-02T21:23:19.769Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.25400631073769997,
+            "negative": 0.8083885714631784,
+            "neutral": 0.9873136818438455
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-27T21:14:30.442Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.8457220114761956,
+            "negative": 0.32003912482564645,
+            "neutral": 0.6777877979564955
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-11-02T20:46:33.011Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.14249342515514196,
+            "negative": 0.3494779507227366,
+            "neutral": 0.11262862470191037
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-02T17:01:32.992Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.637136233093426,
+            "negative": 0.23553362233227504,
+            "neutral": 0.9102775409538639
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-26T20:53:47.007Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.15865994363149682,
+            "negative": 0.25157382314046717,
+            "neutral": 0.992108295206316
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-21T07:37:45.905Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6681961433607635,
+            "negative": 0.8054523096923676,
+            "neutral": 0.18179324814771536
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-17T02:41:49.399Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6752668958998842,
+            "negative": 0.18669477558145253,
+            "neutral": 0.05092317523028522
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-18T22:05:31.829Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.2118220275723972,
+            "negative": 0.9300733913830943,
+            "neutral": 0.49823530375676217
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-24T23:38:55.860Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.1015743199692889,
+            "negative": 0.9030277428981803,
+            "neutral": 0.6345357146865718
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-09T16:47:43.690Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.47579643136760863,
+            "negative": 0.8643054659771496,
+            "neutral": 0.8499314175489618
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-29T06:41:09.076Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.6362488952675285,
+            "negative": 0.3049777770120645,
+            "neutral": 0.21724067415801285
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-24T01:46:01.704Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.7067024767420125,
+            "negative": 0.14777637949009859,
+            "neutral": 0.25439939653507126
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-16T17:32:58.426Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.8093960618752478,
+            "negative": 0.5704705214806547,
+            "neutral": 0.08119777309094567
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-17T05:21:10.617Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.2502688737726273,
+            "negative": 0.3640958312819058,
+            "neutral": 0.6576721321212167
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-23T16:38:32.141Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.08844759325453255,
+            "negative": 0.19742270323186473,
+            "neutral": 0.4713628722927692
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-22T06:20:16.199Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.27428301680896294,
+            "negative": 0.9457605179396187,
+            "neutral": 0.668540253797083
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-23T06:37:54.325Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.07280213006529324,
+            "negative": 0.6174223064164781,
+            "neutral": 0.018843475960018674
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-14T00:18:36.355Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.2427007328066597,
+            "negative": 0.11478511558226523,
+            "neutral": 0.8632197378770627
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-11T00:45:07.472Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.5186974063546721,
+            "negative": 0.6630411460915926,
+            "neutral": 0.9240443417701838
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-03T22:51:21.507Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.7217531243644679,
+            "negative": 0.9214522908978069,
+            "neutral": 0.05809931363760579
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-01T13:28:31.799Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.23342082595310232,
+            "negative": 0.11528450466270512,
+            "neutral": 0.26928596323297027
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-09-09T10:24:41.116Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.7887004498694816,
+            "negative": 0.8616878386745603,
+            "neutral": 0.6638866348869552
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-10-17T13:08:39.503Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.8986242433095706,
+            "negative": 0.10782923845324,
+            "neutral": 0.3397503697471007
+        }
+    },
+    {
+        "hashTags": [
+            "#trump"
+        ],
+        "date": "2019-08-25T21:13:55.252Z",
+        "text": "This is an example tweet from some random person about #trump",
+        "sentiment": {
+            "positive": 0.48841147821819986,
+            "negative": 0.4389545062416591,
+            "neutral": 0.09357346344713435
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-16T08:49:33.982Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.0957932210125938,
+            "negative": 0.7438122547039836,
+            "neutral": 0.8295488891646905
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-14T22:55:11.710Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.24242968215480598,
+            "negative": 0.5069242453600089,
+            "neutral": 0.46044967051840735
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-08T20:16:47.094Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.5269807905699331,
+            "negative": 0.07856215883616224,
+            "neutral": 0.5751529940351057
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-15T06:24:42.289Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.535786971395541,
+            "negative": 0.8166389008114001,
+            "neutral": 0.5393868471492667
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-12T06:49:07.094Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.06314205177605414,
+            "negative": 0.17299774937450096,
+            "neutral": 0.11810959986171943
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-09T09:28:14.572Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.05411529969187567,
+            "negative": 0.7677297385024415,
+            "neutral": 0.0892594901574637
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-24T02:27:09.336Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7693206140429159,
+            "negative": 0.7532492693077848,
+            "neutral": 0.7486925998465563
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-12T00:13:34.294Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.6064549206252459,
+            "negative": 0.9134096872108051,
+            "neutral": 0.14077059487344057
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-23T08:21:13.652Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8847765081264956,
+            "negative": 0.4217832110116826,
+            "neutral": 0.607641824971126
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-09T04:04:27.925Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.006594440147396963,
+            "negative": 0.997620258728515,
+            "neutral": 0.870713368151512
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-16T07:19:25.658Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.4177507742005302,
+            "negative": 0.811083606350741,
+            "neutral": 0.4079460861356603
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-15T06:36:21.025Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7429710718125158,
+            "negative": 0.6604705838768903,
+            "neutral": 0.49060063564645096
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-24T08:57:46.008Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8445519526264305,
+            "negative": 0.17389898226088318,
+            "neutral": 0.2118830394713851
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-14T14:24:13.810Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.580007379146124,
+            "negative": 0.6717517486064204,
+            "neutral": 0.13371921969476053
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-07T06:22:20.194Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3303986526202485,
+            "negative": 0.940813908907836,
+            "neutral": 0.8718118050082018
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-14T23:41:05.210Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.9360298257285924,
+            "negative": 0.5821770443222216,
+            "neutral": 0.3755341892630766
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-16T22:37:59.152Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.5064255966023343,
+            "negative": 0.941932603078111,
+            "neutral": 0.7240530000359853
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-09T03:26:50.026Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8871676029886117,
+            "negative": 0.712293185045255,
+            "neutral": 0.7174088819547486
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-04T06:17:26.444Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.36610673724069254,
+            "negative": 0.508326985954187,
+            "neutral": 0.14451586985898102
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-11T04:43:13.000Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.37007046701381285,
+            "negative": 0.3860948470770267,
+            "neutral": 0.7270148426584317
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-17T20:42:10.411Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3348948436040018,
+            "negative": 0.037863032828447496,
+            "neutral": 0.9125120293183644
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-12T16:12:14.800Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.04466001579015799,
+            "negative": 0.3646335496495523,
+            "neutral": 0.8239501141215968
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-19T22:05:56.798Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.024781026724755684,
+            "negative": 0.696990512864399,
+            "neutral": 0.15953989181836747
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-27T13:50:42.260Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.19370126548127198,
+            "negative": 0.4511410778462035,
+            "neutral": 0.6328750704117574
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-07-30T13:40:46.645Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.026255207630903055,
+            "negative": 0.49975222018182985,
+            "neutral": 0.5887283011719746
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-12T03:44:32.403Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.9000336310015575,
+            "negative": 0.07820318059037423,
+            "neutral": 0.8252000963214843
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-06T23:38:53.345Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8658322218322789,
+            "negative": 0.48819109329198995,
+            "neutral": 0.7944536703802869
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-22T02:25:50.448Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8445755429787705,
+            "negative": 0.4276880687423259,
+            "neutral": 0.34357808658032374
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-10T19:55:07.689Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.18419998481711564,
+            "negative": 0.5860459604146111,
+            "neutral": 0.7130113912991753
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-23T11:47:40.546Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.30972017478769476,
+            "negative": 0.40274929410034854,
+            "neutral": 0.1589835886269637
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-11-05T07:13:09.515Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.4063865819234962,
+            "negative": 0.6756637390822788,
+            "neutral": 0.8336987577451216
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-21T21:19:03.428Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.00231544666528527,
+            "negative": 0.9354176995172365,
+            "neutral": 0.3676522606951156
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-04T05:53:14.294Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.03772382164575161,
+            "negative": 0.7836425065129782,
+            "neutral": 0.5032197543913313
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-25T13:37:29.309Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.40964675339557544,
+            "negative": 0.6463688825980913,
+            "neutral": 0.15062223894660587
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-18T19:57:03.775Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7954168838907183,
+            "negative": 0.20520049215843206,
+            "neutral": 0.12344716521727483
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-15T04:49:24.008Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.11370625123399614,
+            "negative": 0.5811975749096181,
+            "neutral": 0.03207355826312752
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-18T02:37:07.107Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8445889806040803,
+            "negative": 0.8174270653828608,
+            "neutral": 0.7586401455376166
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-09T05:26:25.419Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.33185083264007664,
+            "negative": 0.7826383741485141,
+            "neutral": 0.6890348404595568
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-11-01T08:51:34.105Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.11573378578332782,
+            "negative": 0.21965048654672636,
+            "neutral": 0.05587365284389634
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-08T05:30:57.407Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8070974886145683,
+            "negative": 0.7573173924867125,
+            "neutral": 0.7458091609571753
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-11T08:28:06.054Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.43882308219763355,
+            "negative": 0.5190691852166041,
+            "neutral": 0.644192017787167
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-28T04:39:01.196Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3847191987576397,
+            "negative": 0.0820598888951729,
+            "neutral": 0.8189794602031779
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-05T08:21:37.818Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8196781486808677,
+            "negative": 0.28267636388701645,
+            "neutral": 0.7693188625731817
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-25T16:27:51.664Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.1474090394506098,
+            "negative": 0.5556659621577578,
+            "neutral": 0.048541623898771036
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-07T10:22:22.775Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.4275042999510985,
+            "negative": 0.14124633953433907,
+            "neutral": 0.7541386523940621
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-09T02:32:37.411Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.02756815413149294,
+            "negative": 0.48672959844206254,
+            "neutral": 0.7940628159912377
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-21T12:41:40.948Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.306743151026027,
+            "negative": 0.8199826583066958,
+            "neutral": 0.27079246670145096
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-17T07:42:43.006Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7618991100062409,
+            "negative": 0.8419775268761531,
+            "neutral": 0.9145060771208808
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-18T06:19:28.340Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.19730405149133956,
+            "negative": 0.33758424418479027,
+            "neutral": 0.26838971691254687
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-19T03:45:33.598Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7849497866747908,
+            "negative": 0.5280440808165812,
+            "neutral": 0.8833469962641876
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-02T00:56:20.410Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.9836603095442382,
+            "negative": 0.8167330691807153,
+            "neutral": 0.3400129665665317
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-11-01T15:39:07.412Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.32710253762465036,
+            "negative": 0.9900910094022868,
+            "neutral": 0.802248881973574
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-11-04T05:08:38.333Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.32202343925308385,
+            "negative": 0.6958726762482055,
+            "neutral": 0.3543907082307636
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-08T12:45:01.566Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.09865259717057762,
+            "negative": 0.06172044677848665,
+            "neutral": 0.4994334473002995
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-31T18:05:52.351Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.697997240967797,
+            "negative": 0.262621999577036,
+            "neutral": 0.8432271658839803
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-01T23:27:00.781Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.21165775049494062,
+            "negative": 0.49227539447203483,
+            "neutral": 0.9578927443701568
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-05T19:45:45.521Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8130902369045865,
+            "negative": 0.43101416503356127,
+            "neutral": 0.21036226100532218
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-16T11:25:25.752Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.48603802952956277,
+            "negative": 0.9601822200572914,
+            "neutral": 0.059617701396081024
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-16T09:45:25.674Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.5791604182607415,
+            "negative": 0.5757115091730962,
+            "neutral": 0.8039107075585086
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-06T20:29:36.313Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.2482269489789095,
+            "negative": 0.4264632691866348,
+            "neutral": 0.20965378314673977
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-06T04:59:27.157Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3736864087681193,
+            "negative": 0.17073707594525378,
+            "neutral": 0.03638213747201502
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-15T08:03:25.464Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7885442872151642,
+            "negative": 0.04403125148590292,
+            "neutral": 0.7029185823224797
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-23T13:33:23.890Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8149465752278584,
+            "negative": 0.980897436220292,
+            "neutral": 0.6085942613145652
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-06T08:26:56.955Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.33446141155300024,
+            "negative": 0.25436132721928817,
+            "neutral": 0.037387384597677764
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-03T20:36:08.747Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.9652724201486207,
+            "negative": 0.07385193246548272,
+            "neutral": 0.39414495281607587
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-02T22:32:33.153Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.6454759591893775,
+            "negative": 0.4213651142509993,
+            "neutral": 0.6686600920772159
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-11-04T22:10:55.255Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.9624255484058124,
+            "negative": 0.18840685325357587,
+            "neutral": 0.8018864444800755
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-26T10:05:44.092Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.24792250447968578,
+            "negative": 0.44660795260927366,
+            "neutral": 0.19273429943871911
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-14T22:10:51.421Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3458997815871976,
+            "negative": 0.3949086631212244,
+            "neutral": 0.13103534100774716
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-20T18:33:21.077Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.856154381267686,
+            "negative": 0.09578004706673893,
+            "neutral": 0.3679801959560123
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-17T00:43:06.598Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.9721028634172848,
+            "negative": 0.4197629606840576,
+            "neutral": 0.15887889033580516
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-17T19:42:56.208Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.2429133481273702,
+            "negative": 0.4022026754219512,
+            "neutral": 0.5989511914333534
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-16T03:13:03.892Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.12752383289599933,
+            "negative": 0.6063837351697154,
+            "neutral": 0.3705253476590693
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-20T03:26:54.111Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.041900017210476204,
+            "negative": 0.9652859531508422,
+            "neutral": 0.526579795129914
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-23T02:15:04.279Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8456107171023137,
+            "negative": 0.005985537910379257,
+            "neutral": 0.12823354878162263
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-08T08:16:40.806Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.6202082681301033,
+            "negative": 0.22259283904259242,
+            "neutral": 0.9601697120594785
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-27T16:30:48.272Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8553797616515302,
+            "negative": 0.3169915389643161,
+            "neutral": 0.6360893440632165
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-05T09:10:38.084Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.6409418998011573,
+            "negative": 0.8462575838612911,
+            "neutral": 0.638593062661081
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-25T17:32:14.074Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.4049642684213326,
+            "negative": 0.19317782785795679,
+            "neutral": 0.8517791688532224
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-25T16:31:57.194Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8312168852868644,
+            "negative": 0.9279977877288497,
+            "neutral": 0.8591403824600634
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-15T23:00:05.858Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7656496578315419,
+            "negative": 0.07055998671165464,
+            "neutral": 0.8769878403173332
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-01T18:06:38.370Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.9379524318544887,
+            "negative": 0.9432228021162676,
+            "neutral": 0.5660650215632581
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-24T04:45:41.224Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.20604973683512995,
+            "negative": 0.5446345075105188,
+            "neutral": 0.5008483230581184
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-11-06T21:16:52.021Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.36826719421016274,
+            "negative": 0.06022473375985382,
+            "neutral": 0.8306524183311303
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-11-03T04:10:02.138Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3243642384113552,
+            "negative": 0.8732066726450323,
+            "neutral": 0.24935492283486127
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-18T17:29:30.828Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7413582432306718,
+            "negative": 0.6686388423473282,
+            "neutral": 0.7819093311144611
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-28T02:33:52.847Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7024156907400305,
+            "negative": 0.6144491082850265,
+            "neutral": 0.6645467898390562
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-22T15:03:29.235Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3375486306575777,
+            "negative": 0.14153047399573992,
+            "neutral": 0.7352682121135219
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-02T17:48:12.958Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.902813553252577,
+            "negative": 0.06622973923315367,
+            "neutral": 0.05165016409987788
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-20T08:25:57.758Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.790906081777774,
+            "negative": 0.9533396868759361,
+            "neutral": 0.11188317966796069
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-23T13:44:50.618Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7486490222835271,
+            "negative": 0.4818724741019249,
+            "neutral": 0.24685966773332768
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-04T22:39:57.794Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8889612945842549,
+            "negative": 0.5216210379325308,
+            "neutral": 0.5050213222041546
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-07T09:36:46.767Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.719975097185497,
+            "negative": 0.6919694806595877,
+            "neutral": 0.8457457804878457
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-28T14:28:28.265Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.4258137934355495,
+            "negative": 0.0756484519838998,
+            "neutral": 0.07029097510026627
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-10-16T10:19:52.950Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.7806103373161317,
+            "negative": 0.907793748780561,
+            "neutral": 0.5601672683046055
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-11-01T05:09:53.787Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3345122540220806,
+            "negative": 0.5994062710172543,
+            "neutral": 0.5351411421712335
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-01T06:11:14.955Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.8068286480696354,
+            "negative": 0.24296748206610053,
+            "neutral": 0.2112259597885262
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-13T21:45:23.818Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.3770131398700656,
+            "negative": 0.4260753597813469,
+            "neutral": 0.7253888492191083
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-09-05T01:00:12.894Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.9699974203938455,
+            "negative": 0.6594636512532519,
+            "neutral": 0.29540039371233084
+        }
+    },
+    {
+        "hashTags": [
+            "#hillary"
+        ],
+        "date": "2019-08-11T15:12:35.403Z",
+        "text": "This is an example tweet from some random person about #hillary",
+        "sentiment": {
+            "positive": 0.2547457414797265,
+            "negative": 0.5424166822289802,
+            "neutral": 0.4025206178906091
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-29T17:38:30.410Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.40944749951793913,
+            "negative": 0.5611072151274097,
+            "neutral": 0.4497401213001053
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-01T04:43:35.404Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.1814548953638646,
+            "negative": 0.577886117838522,
+            "neutral": 0.9676367389999974
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-29T18:35:09.811Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7037090125605119,
+            "negative": 0.7184156538891924,
+            "neutral": 0.37036876245871
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-08T23:26:14.797Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.30629325354731485,
+            "negative": 0.6035603048200617,
+            "neutral": 0.18450224204606624
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-26T08:04:01.613Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.2937949328994507,
+            "negative": 0.8333324772151225,
+            "neutral": 0.10744506394742337
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-18T23:05:36.907Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.009474535821629715,
+            "negative": 0.5239346880094355,
+            "neutral": 0.6004444500331445
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-03T08:24:42.679Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.4743705664110558,
+            "negative": 0.6718474068860094,
+            "neutral": 0.7928809041409239
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-02T09:09:21.811Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.4952151682311332,
+            "negative": 0.18317306419087376,
+            "neutral": 0.06895247172533425
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-12T05:34:01.394Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.10981886434865329,
+            "negative": 0.995350642537262,
+            "neutral": 0.3774786602886744
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-08T18:33:25.041Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.3745819973387836,
+            "negative": 0.03443215900213503,
+            "neutral": 0.9780367227879627
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-16T21:37:13.612Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.15752422634830854,
+            "negative": 0.5244973302372982,
+            "neutral": 0.9042735441632548
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-19T21:18:37.735Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.47801216345399666,
+            "negative": 0.6667249078169124,
+            "neutral": 0.8332005765945549
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-09T09:09:07.249Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.04779108768524698,
+            "negative": 0.579928630220846,
+            "neutral": 0.04076654564024995
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-14T16:59:10.378Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.808807337018403,
+            "negative": 0.835122516852566,
+            "neutral": 0.509198498267678
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-20T16:35:18.176Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.08207059665206051,
+            "negative": 0.7728423288951527,
+            "neutral": 0.2148100017362473
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-08T01:35:24.511Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.2360681434583325,
+            "negative": 0.9700714141520437,
+            "neutral": 0.9904120237109295
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-29T03:56:15.222Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6094733685609899,
+            "negative": 0.21532748940155644,
+            "neutral": 0.7495689489775559
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-09T04:24:31.390Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.3558787101457037,
+            "negative": 0.31021261878091244,
+            "neutral": 0.03738142451240334
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-08T13:19:33.782Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6972943335220454,
+            "negative": 0.2216089825345997,
+            "neutral": 0.9319397679817294
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-25T17:51:50.091Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7361531361434628,
+            "negative": 0.4880005736866355,
+            "neutral": 0.38368924084356726
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-08T04:26:29.480Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.8850074517690183,
+            "negative": 0.9876426504473239,
+            "neutral": 0.19631840851818394
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-28T02:58:22.115Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7942731528462321,
+            "negative": 0.0405588335922773,
+            "neutral": 0.816916711669313
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-16T15:46:33.000Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6395237892763912,
+            "negative": 0.6892283254608771,
+            "neutral": 0.9617040036039466
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-04T13:37:20.294Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.37861767238467836,
+            "negative": 0.9843418828779482,
+            "neutral": 0.8346134790803403
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-10T10:12:37.205Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.34735186846853106,
+            "negative": 0.2763373193376859,
+            "neutral": 0.5841957982044306
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-05T08:04:39.172Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5324907610569463,
+            "negative": 0.9884304006420743,
+            "neutral": 0.7425436728226189
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-29T22:40:57.165Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7281488900510547,
+            "negative": 0.059051414826190474,
+            "neutral": 0.8486433533160138
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-20T23:38:19.460Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.2624028483762886,
+            "negative": 0.821552116893844,
+            "neutral": 0.842878374611701
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-18T11:49:13.804Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.4987334204354046,
+            "negative": 0.17485950240688575,
+            "neutral": 0.8080865879046786
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-17T19:04:00.218Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.9757972989588086,
+            "negative": 0.15160333334539544,
+            "neutral": 0.8723156453685899
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-23T19:24:25.759Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.24274306673300017,
+            "negative": 0.7815512983263655,
+            "neutral": 0.25902184307219334
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-03T22:32:58.714Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.759510381185907,
+            "negative": 0.7561095206953872,
+            "neutral": 0.8324773120150111
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-24T03:24:35.947Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.8214334583752627,
+            "negative": 0.7734407581645244,
+            "neutral": 0.25702754665284
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-03T01:47:58.024Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.2328909470546774,
+            "negative": 0.17326697009907988,
+            "neutral": 0.14443101884695375
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-15T17:04:46.693Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5959567754710822,
+            "negative": 0.26730783594090735,
+            "neutral": 0.37933942577157476
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-11-04T16:49:00.089Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.06843728332235521,
+            "negative": 0.912052871065024,
+            "neutral": 0.8380565859621003
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-22T18:35:43.648Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5510452271262616,
+            "negative": 0.2902270528893005,
+            "neutral": 0.039845085437655525
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-28T09:15:23.417Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.2723409930634506,
+            "negative": 0.30541927429330373,
+            "neutral": 0.3749181425327064
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-19T05:38:13.959Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7234040754091389,
+            "negative": 0.10156529544574999,
+            "neutral": 0.8996278371187116
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-10T13:08:43.131Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.9141260039336356,
+            "negative": 0.8693755331511936,
+            "neutral": 0.7705247336021861
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-08T11:44:49.459Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.8859383801482876,
+            "negative": 0.45850776902366763,
+            "neutral": 0.17916103938691763
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-12T14:33:39.345Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.26705612050576244,
+            "negative": 0.6110158759777862,
+            "neutral": 0.46911306685413545
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-15T19:18:15.383Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.640360607153416,
+            "negative": 0.749500853663674,
+            "neutral": 0.7538606956603076
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-20T23:36:23.684Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.762929143560505,
+            "negative": 0.5114892453076225,
+            "neutral": 0.714778061614592
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-02T06:57:49.395Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6513981933547266,
+            "negative": 0.3411400286707691,
+            "neutral": 0.9249582427375111
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-11-02T02:56:39.503Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5729152624403484,
+            "negative": 0.7329333846799571,
+            "neutral": 0.5809493948219957
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-05T12:49:30.478Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7584539979672063,
+            "negative": 0.2692615493186885,
+            "neutral": 0.23382982476391345
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-09T13:44:53.370Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.18727201162639817,
+            "negative": 0.7357046572605099,
+            "neutral": 0.9566698555394468
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-11-03T01:43:24.158Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6182622447289658,
+            "negative": 0.034097835847138436,
+            "neutral": 0.752536098637749
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-28T23:53:13.700Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.4821214860288454,
+            "negative": 0.8928401487354121,
+            "neutral": 0.8500585883744165
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-06T06:07:15.044Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5986261528464047,
+            "negative": 0.6876639477402033,
+            "neutral": 0.4927269625884547
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-06T09:08:06.050Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.4942240805949729,
+            "negative": 0.8228912051075394,
+            "neutral": 0.253798833504594
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-08T03:19:21.071Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7429180505844111,
+            "negative": 0.10668612590299675,
+            "neutral": 0.3479081375716928
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-28T09:10:32.416Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.41702073474324797,
+            "negative": 0.3083327334653556,
+            "neutral": 0.39480605779165967
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-21T21:17:34.484Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.029182303828645617,
+            "negative": 0.11022908307082768,
+            "neutral": 0.168264888395933
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-27T04:05:38.051Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.1967503497917722,
+            "negative": 0.22205789253561337,
+            "neutral": 0.6152511346298173
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-18T23:47:26.312Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6924340474266224,
+            "negative": 0.5720885900245878,
+            "neutral": 0.19881952638929912
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-01T11:32:46.316Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.0775169746829587,
+            "negative": 0.8234291541074403,
+            "neutral": 0.5209020694270659
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-14T04:02:32.643Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7557745441694801,
+            "negative": 0.727680368460025,
+            "neutral": 0.6207678196254562
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-25T14:18:27.952Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.3701222093332992,
+            "negative": 0.8618677118930853,
+            "neutral": 0.3374994788411254
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-03T08:42:43.194Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.03805259835721486,
+            "negative": 0.05269921554950119,
+            "neutral": 0.7874967816042278
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-10T12:33:50.036Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.13325780934678422,
+            "negative": 0.17632238668783695,
+            "neutral": 0.6565327230725377
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-13T18:27:15.459Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.11011597583670296,
+            "negative": 0.2097969487543907,
+            "neutral": 0.7491352065745278
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-24T11:23:04.212Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6922019512687938,
+            "negative": 0.6924551566867958,
+            "neutral": 0.02688432045667355
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-09T07:10:22.045Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5270007376388886,
+            "negative": 0.5088096997656086,
+            "neutral": 0.6541151571378394
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-27T10:51:58.400Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7637552006946777,
+            "negative": 0.9666157572375773,
+            "neutral": 0.7693705484347859
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-12T02:35:10.704Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7585903964277447,
+            "negative": 0.031242454805043174,
+            "neutral": 0.6733439460756308
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-20T22:58:43.199Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.47141162448561036,
+            "negative": 0.7108345379060079,
+            "neutral": 0.174524531690476
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-31T17:44:57.235Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.25684280574299323,
+            "negative": 0.4258773163225744,
+            "neutral": 0.9788212582100848
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-09T08:10:38.523Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.9523576198072914,
+            "negative": 0.4974650416266253,
+            "neutral": 0.7396409743472618
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-11-04T13:30:50.707Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.4121750803761455,
+            "negative": 0.13349767881501418,
+            "neutral": 0.6835552329829764
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-31T07:46:50.532Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.836927603785802,
+            "negative": 0.6525228760554018,
+            "neutral": 0.3030404135923339
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-10T21:54:07.468Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5445145749695415,
+            "negative": 0.25230675243753,
+            "neutral": 0.08613501395841228
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-09T01:08:46.550Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5794439559521167,
+            "negative": 0.70830924391613,
+            "neutral": 0.21937669495801404
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-07T19:39:20.966Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.21503195062209435,
+            "negative": 0.40067838294250335,
+            "neutral": 0.5450807633256989
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-06T04:51:29.116Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.9794048149193035,
+            "negative": 0.09594959199193642,
+            "neutral": 0.17747781391744621
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-24T03:26:49.004Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.7871446183302937,
+            "negative": 0.7416141279037123,
+            "neutral": 0.6881626567109482
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-10T10:24:46.398Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.9082824316898377,
+            "negative": 0.11146758936902557,
+            "neutral": 0.46601838024901343
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-21T17:32:18.604Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6885899387041159,
+            "negative": 0.17443505412666482,
+            "neutral": 0.021155548068392482
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-05T00:40:04.246Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.3684392369215508,
+            "negative": 0.7959761145709565,
+            "neutral": 0.07769245209955788
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-11-03T07:42:46.706Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.9686485615711993,
+            "negative": 0.7159170759978333,
+            "neutral": 0.9863421601472044
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-11-06T11:31:40.975Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.5432058019843147,
+            "negative": 0.5413804051161524,
+            "neutral": 0.5262778434594895
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-31T16:05:15.242Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6431190734560754,
+            "negative": 0.6028588791823242,
+            "neutral": 0.621419862790888
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-19T21:33:34.039Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.272385112522767,
+            "negative": 0.069556281790365,
+            "neutral": 0.7544761399331323
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-11T17:58:32.127Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.3004242410976823,
+            "negative": 0.9299553772666982,
+            "neutral": 0.009165004190253567
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-21T06:20:03.448Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.059430623587326314,
+            "negative": 0.06029393963369989,
+            "neutral": 0.705449903736574
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-26T06:13:29.268Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.574053810712932,
+            "negative": 0.2376562263174924,
+            "neutral": 0.22358770255122185
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-23T00:52:35.911Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6978848363543366,
+            "negative": 0.484848152555732,
+            "neutral": 0.7034863804590203
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-17T23:06:54.851Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6898191987842088,
+            "negative": 0.5858486991668981,
+            "neutral": 0.5744067087681541
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-24T13:42:15.080Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6622461879237433,
+            "negative": 0.06919779313921204,
+            "neutral": 0.9293631714916137
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-04T17:52:26.525Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.2880471547382766,
+            "negative": 0.2960934697210227,
+            "neutral": 0.22122719643064714
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-12T11:45:41.600Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.8286014564795923,
+            "negative": 0.32205088654242187,
+            "neutral": 0.7817700273817778
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-01T04:00:03.044Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6074690850182343,
+            "negative": 0.02078494979272283,
+            "neutral": 0.4191524934084121
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-28T15:12:33.014Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.3987730617855947,
+            "negative": 0.7613213420171216,
+            "neutral": 0.9007035803021608
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-30T07:50:38.800Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.10168195558904691,
+            "negative": 0.3906979050892663,
+            "neutral": 0.3687024267281085
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-09-09T09:32:23.674Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.6662182355116064,
+            "negative": 0.1820422328234359,
+            "neutral": 0.2313464578161415
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-08-05T03:36:01.650Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.20471310646824148,
+            "negative": 0.04408004174669289,
+            "neutral": 0.5902661868520953
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-10-24T09:18:11.071Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.13005249719844936,
+            "negative": 0.002935527252856396,
+            "neutral": 0.32159500749437364
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-11-04T11:02:16.157Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.240569065506558,
+            "negative": 0.8812099870430368,
+            "neutral": 0.6353523128874032
+        }
+    },
+    {
+        "hashTags": [
+            "#elon",
+            "#tesla"
+        ],
+        "date": "2019-11-01T11:53:03.506Z",
+        "text": "This is an example tweet from some random person about #elon #tesla",
+        "sentiment": {
+            "positive": 0.18005376993529176,
+            "negative": 0.488456801103587,
+            "neutral": 0.5070824412460946
+        }
+    }
+]

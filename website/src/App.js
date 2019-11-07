@@ -6,9 +6,17 @@ import FakeData from "./testData.json";
 import QueriesView from "./QueriesView";
 
 const App = () => {
-  const availableQueries = ["#trump", "#hillary", "#elon,#tesla"];
+  const [queries, setQueries] = useState(["#trump", "#hillary", "#elon,#tesla"])
 
-  const [query, setQuery] = useState(availableQueries[0]);
+  const addQuery = (string) => {
+    setQueries([...queries, string])
+  }
+
+  const removeQuery = (string) => {
+
+  }
+
+  const [query, setQuery] = useState("");
   return (
     <div className="App">
       {query && (
@@ -30,7 +38,7 @@ const App = () => {
         </React.Fragment>
       )}
       {!query && (
-        <QueriesView queriesList={availableQueries} setQuery={setQuery} />
+        <QueriesView queriesList={queries} setQuery={setQuery} addQuery={addQuery}/>
       )}
     </div>
   );
