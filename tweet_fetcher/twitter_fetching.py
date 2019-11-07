@@ -13,8 +13,6 @@ from aws_services import send_message_to_sqs
 
 # CONSUMER_KEY= os.getenv("CONSUMER_KEY")
 # CONSUMER_SECRET= os.getenv("CONSUMER_SECRET")
-# ACCESS_TOKEN_KEY= os.getenv("ACCESS_TOKEN_KEY")
-# ACCESS_TOKEN_SECRET= os.getenv("ACCESS_TOKEN_SECRET")
 
 
 
@@ -27,7 +25,7 @@ def retrieve_new_tweets(search_query="#ellen", keyword_id=1, since_tweet_id=None
         print("Unable to authentical API")
         exit()
 
-    max_tweets = 10000000
+    max_tweets = 10000000  # obscurely large number to restrict loop
     tweet_count = 0
     tweets_per_query = 100  # this is the max per the API 
     since_id = since_tweet_id  # if given a tweet ID, find tweets since then
