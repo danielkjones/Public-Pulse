@@ -17,7 +17,7 @@ CONSUMER_KEY= os.getenv("CONSUMER_KEY")
 CONSUMER_SECRET= os.getenv("CONSUMER_SECRET")
 ACCESS_TOKEN_KEY= os.getenv("ACCESS_TOKEN_KEY")
 ACCESS_TOKEN_SECRET= os.getenv("ACCESS_TOKEN_SECRET")
-search_filter=["#HumanScum"]
+search_filter=["#RITSM"]
 
 class MyStreamListener(tweepy.StreamListener):
     def on_status(self, status):

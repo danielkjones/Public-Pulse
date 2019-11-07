@@ -42,7 +42,7 @@ tweets_per_query = 100  # this is the max per the API
 file_name = "tweets.txt"
 since_id = None
 max_id = -1
-search_query = "#zuckerberg"
+search_query = "#KanyeWest"
 
 with open(file_name, "w") as f:
     while tweet_count < max_tweets:
