@@ -80,7 +80,7 @@ def _build_message_dict(status, keyword_id):
 def _send_tweet_info(tweet, keyword_id):
     message_dict = _build_message_dict(tweet, keyword_id)
     message_body = json.dumps(message_dict)
-    send_message_to_sqs(message_body)
+    send_message_to_sqs(message_body, Config().sqs["url"])
 
 if __name__ == "__main__":
     retrieve_new_tweets()

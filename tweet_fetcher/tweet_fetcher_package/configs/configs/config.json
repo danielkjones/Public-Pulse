@@ -1,8 +1,8 @@
 {
     "twitter_api": {
         "secret_name": "prod/twitter/api",
-        "consumer_key": "YcIXq8uEdENAARiFsanLTwUDN",
-        "consumer_secret": "T46jBbiKEJsMn3iNnddEFaffd3FEHYKFliPjyfrftVGtcXkeDd"
+        "consumer_key": "",
+        "consumer_secret": ""
     },
     "sqs": {
         "url": "https://sqs.us-east-1.amazonaws.com/830714197270/Test-Queue"
