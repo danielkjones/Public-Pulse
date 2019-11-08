@@ -1,4 +1,5 @@
 import json
+# from aws_services import retrieve_twitter_api_keys
 
 
 class Config:
@@ -9,6 +10,12 @@ class Config:
             self.twitter_api = dic['twitter_api']
             self.sqs = dic['sqs']
             self.postgres = dic['postgres']
+        #     self._set_twitter_creds_from_secrets()
+
+        # def _set_twitter_creds_from_secrets(self):
+        #     consumer_key, consumer_secret = retrieve_twitter_api_keys()
+        #     self.twitter_api['consumer_key'] = consumer_key
+        #     self.twitter_api['consumer_secret'] = consumer_secret
 
     instance = None
     def __init__(self):
