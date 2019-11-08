@@ -8,6 +8,26 @@ venv/
 node_modules
 .pnp
 .pnp.js
+__pycache__/
+bin/
+boto3-1.10.13.dist-info
+boto3/
+botocore-1.13.13.dist-info/
+botocore/
+dateutil/
+docutils-0.15.2.dist-info/
+docutils/
+jmespath-0.9.4.dist-info/
+jmespath/
+psycopg2-2.8.4.dist-info/
+psycopg2/
+python_dateutil-2.8.0.dist-info/
+s3transfer-0.2.1.dist-info/
+s3transfer/
+six-1.13.0.dist-info/
+six.py
+urllib3-1.25.6.dist-info/
+urllib3/
 
 # testing
 coverage
@@ -26,3 +46,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#lambda zip
+lambda.zip
