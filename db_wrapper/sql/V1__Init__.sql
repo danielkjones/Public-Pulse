@@ -6,8 +6,8 @@ CREATE TABLE keywords ( -- Represent the words that are being tracked e.g. #Chin
 
 CREATE TABLE tweets (
 	tweet_id BIGINT PRIMARY KEY, -- ID from the tweet
-  	keyword INTEGER REFERENCES keywords(id), -- The keyword that this tweet belongs to
-  	tweet_text TEXT NOT NULL,
+	hashtags TEXT[],
+	tweet_text TEXT NOT NULL,
 	positive DECIMAL,
 	negative DECIMAL,
 	neutral DECIMAL,
