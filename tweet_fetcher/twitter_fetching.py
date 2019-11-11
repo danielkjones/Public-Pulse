@@ -9,11 +9,12 @@ https://bhaskarvk.github.io/2015/01/how-to-use-twitters-search-rest-api-most-eff
 """
 import tweepy
 import json
+import os
 from lambda_configs import Config
 from aws_services import send_message_to_sqs
 
 
-def retrieve_new_tweets(search_query="#KanyeWest", keyword_id=1, since_tweet_id=None):  
+def retrieve_new_tweets(search_query, keyword_id, since_tweet_id=None):  
     # Get the configured API Keys for Twitter Auth
     CONSUMER_KEY = Config().twitter_api["consumer_key"]
     CONSUMER_SECRET = Config().twitter_api["consumer_secret"]
@@ -57,7 +58,6 @@ def retrieve_new_tweets(search_query="#KanyeWest", keyword_id=1, since_tweet_id=
                     pass 
                 else:
                     _send_tweet_info(tweet, keyword_id)
-                    break
             tweet_count += len(new_tweets)
             max_id = new_tweets[-1].id
         except tweepy.TweepError as e:
@@ -80,7 +80,11 @@ def _build_message_dict(status, keyword_id):
 def _send_tweet_info(tweet, keyword_id):
     message_dict = _build_message_dict(tweet, keyword_id)
     message_body = json.dumps(message_dict)
-    send_message_to_sqs(message_body, Config().sqs["url"])
+    if os.environ.get('PROD'):
+        send_message_to_sqs(message_body, Config().sqs["url"])
+    else:
+        print(message_body)
+
 
 if __name__ == "__main__":
-    retrieve_new_tweets()
+    retrieve_new_tweets('#ellen', 2)

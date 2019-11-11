@@ -7,6 +7,7 @@ cp lambda.py query.py lambda_configs.py aws_services.py twitter_fetching.py twee
 cp -r configs tweet_fetcher_package/configs/
 cp -r psycopg2 tweet_fetcher_package/psycopg2/
 
+rm $ZIP_FILE
 
 cd $ZIP_FOLDER
 
