@@ -11,7 +11,8 @@ import {
   InputGroupText,
   InputGroupButtonDropdown,
   Button,
-  InputGroupAddon
+  InputGroupAddon,
+  Alert
 } from "reactstrap";
 import { gql } from "apollo-boost";
 import { useLazyQuery, useMutation } from "@apollo/react-hooks";
@@ -39,10 +40,12 @@ const DELETE_KEYWORD = gql`
 `;
 
 export default ({ setQueryIdAndWord }) => {
-  let [loadKeywords, { called, loading, data, error, refetch }] = useLazyQuery(
+  let [loadKeywords, { called, loading, data, error, refetch, networkStatus }] = useLazyQuery(
     GET_KEYWORDS
   );
-  const [deleteKeyword] = useMutation(DELETE_KEYWORD);
+  const [deleteKeyword, { loading: deleteKeywordLoading }] = useMutation(
+    DELETE_KEYWORD
+  );
 
   if (!called) {
     loadKeywords();
@@ -51,32 +54,56 @@ export default ({ setQueryIdAndWord }) => {
     <Container>
       <Row>
         <Col>
+          {JSON.stringify({
+            called: called,
+            loading: loading,
+            data: data,
+            error: error,
+            refetch: refetch,
+            networkStatus: networkStatus
+          }, null, 4)}
           <AddQuery
             onAdd={() => {
               console.log("loaded queries");
               refetch();
             }}
           />
+          {error && <Alert color="danger">Error fetching hashtags</Alert>}
+          {deleteKeywordLoading && (
+            <div>
+              <h3>Removing hastag</h3>
+              <Spinner />
+            </div>
+          )}
           <ListGroup>
-            {loading && <Spinner color="primary" />}
             {data &&
               data.allKeywords.edges.map(item => (
-                <ListGroupItem >
-                  <p onClick={() => setQueryIdAndWord(item.node)}>{JSON.stringify(item.node.word)}</p>
+                <ListGroupItem>
+                  <p onClick={() => setQueryIdAndWord(item.node)}>
+                    {JSON.stringify(item.node.word)}
+                  </p>
                   <Button
                     onClick={() =>
-
                       deleteKeyword({
                         variables: {
                           id: item.node.id
                         }
-                      }).finally(refetch)
+                      })
+                      .finally(() => {
+                        refetch()
+                      })
                     }
+                    disabled={deleteKeywordLoading}
                   >
                     Remove
                   </Button>
                 </ListGroupItem>
               ))}
+            {loading && (
+              <ListGroupItem>
+                <Spinner />
+              </ListGroupItem>
+            )}
           </ListGroup>
         </Col>
       </Row>

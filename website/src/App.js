@@ -7,9 +7,6 @@ import "./App.css";
 
 
 const App = () => {
-
-  // const removeQuery = string => {};
-
   const [queryIdAndWord, setQueryIdAndWord] = useState("");
   return (
     <div className="App">
