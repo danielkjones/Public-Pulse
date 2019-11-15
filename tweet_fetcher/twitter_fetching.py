@@ -25,12 +25,12 @@ def retrieve_new_tweets(search_query, keyword_id, since_tweet_id=None):
         print("Unable to authentical API")
         exit()
 
-    max_tweets = 15  # obscurely large number to restrict loop
+    max_tweets = 10000000  # obscurely large number to restrict loop
     tweet_count = 0
     tweets_per_query = 100  # this is the max per the API 
     since_id = since_tweet_id  # if given a tweet ID, find tweets since then
-    max_id = -1    
-
+    max_id = -1
+    
     while tweet_count < max_tweets:
         try:
             if (max_id <= 0):
@@ -49,8 +49,6 @@ def retrieve_new_tweets(search_query, keyword_id, since_tweet_id=None):
                                             max_id=str(max_id - 1),
                                             since_id=since_id, tweet_mode='extended')
             if not new_tweets:
-                print("All recent Tweets retrieved for Keyword ID: {}".format(keyword_id))
-                print("Tweet Count: {}".format(tweet_count))
                 break
             for tweet in new_tweets:
                 if hasattr(tweet, "retweeted_status"):
@@ -87,4 +85,4 @@ def _send_tweet_info(tweet, keyword_id):
 
 
 if __name__ == "__main__":
-    retrieve_new_tweets('#ellen', 2)
+    retrieve_new_tweets('#kanye', 2)
