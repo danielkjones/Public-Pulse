@@ -15,10 +15,10 @@ def main(event, context):
             keyword_id=keyword_id,
             since_tweet_id=max_tweet_id
         )
-        print("\n\n\nRetrieved tweets for keyword {}\n\n\n".format(search_query))
+    
     return {
         "status": "success",
-        "message": "Message sent successfully. Check the Queue."
+        "keywords": keywords_array
     }    
 
 

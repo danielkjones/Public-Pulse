@@ -25,7 +25,7 @@ def retrieve_new_tweets(search_query, keyword_id, since_tweet_id=None):
         print("Unable to authentical API")
         exit()
 
-    max_tweets = 10000000  # obscurely large number to restrict loop
+    max_tweets = 15  # obscurely large number to restrict loop
     tweet_count = 0
     tweets_per_query = 100  # this is the max per the API 
     since_id = since_tweet_id  # if given a tweet ID, find tweets since then

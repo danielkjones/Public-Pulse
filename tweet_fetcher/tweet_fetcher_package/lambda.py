@@ -7,15 +7,18 @@ def main(event, context):
     keywords_array = get_search_strings()
     
     for keyword_info in keywords_array:
+        search_query = keyword_info[1]
+        keyword_id = keyword_info[0]
+        max_tweet_id = keyword_info[2]
         retrieve_new_tweets(
-            search_query=keyword_info[0],
-            keyword_id=keyword_info[1],
-            since_tweet_id=keyword_info[2]
+            search_query=search_query,
+            keyword_id=keyword_id,
+            since_tweet_id=max_tweet_id
         )
-
+    
     return {
         "status": "success",
-        "message": "Message sent successfully. Check the Queue."
+        "keywords": keywords_array
     }    
 
 
