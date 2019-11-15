@@ -29,9 +29,10 @@ def get_search_strings():
     query_string = \
         "SELECT keywords.id, keywords.word, tweets.tweet_id " \
         "FROM keywords LEFT JOIN tweets " \
-        "ON tweets.keyword=keywords.id "\
-        "WHERE tweets.tweet_id IN (SELECT MAX(tweet_id) FROM tweets GROUP BY keyword) " \
-        "OR tweets.tweet_id IS NULL;"
+        "ON tweets.keyword=keywords.id " \
+        "WHERE (tweets.tweet_id IN (SELECT MAX(tweet_id) FROM tweets GROUP BY keyword) " \
+        "OR tweets.tweet_id IS NULL) " \
+        "AND keywords.active='true';"
     query_results = _execute_select_query(query_string)
     return query_results
 
