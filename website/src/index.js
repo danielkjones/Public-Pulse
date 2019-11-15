@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import Navbar from "./Navbar"
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,7 +16,8 @@ const client = new ApolloClient({
 ReactDOM.render(
   <ApolloProvider client={client}>
     <div>
-      <h2>My first Apollo app 🚀</h2>
+      <Navbar />
+      <br/>
       <App />
     </div>
   </ApolloProvider>,

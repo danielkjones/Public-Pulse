@@ -1,5 +1,21 @@
 import React from "react"
 import Chart from "./Chart"
+import { useLazyQuery, useMutation, useQuery } from "@apollo/react-hooks";
+import { gql } from "apollo-boost";
+
+const GET_TWEETS = gql`
+  {
+    allTweets {
+      edges {
+        node {
+          word
+          id
+        }
+      }
+    }
+  }
+`;
+
 
 const analyzeData = data => {
     let days = {};
@@ -47,6 +63,8 @@ const analyzeData = data => {
   };
 
 export default ({queryString, data}) => {
+    // let {called, loading, data, } = useQuery(GET_TWEETS)
+
     let sortedData = data.sort((a, b) => (a.date > b.date ? 1 : -1));
     const analyzedData = analyzeData(sortedData);
     return (
