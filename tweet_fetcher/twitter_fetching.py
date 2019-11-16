@@ -75,9 +75,14 @@ def _build_message_dict(status, keyword_id):
     return message_dict
 
 
+def _remove_escape_characters(message_body):
+    return message_body.replace("\\n", " ")
+
+
 def _send_tweet_info(tweet, keyword_id):
     message_dict = _build_message_dict(tweet, keyword_id)
     message_body = json.dumps(message_dict)
+    message_body = _remove_escape_characters(message_body)
     if os.environ.get('PROD'):
         send_message_to_sqs(message_body, Config().sqs["url"])
     else:
