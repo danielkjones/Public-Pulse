@@ -49,3 +49,6 @@ yarn-error.log*
 #lambda zip
 lambda.zip
 __pycache__
+
+# cron_job
+scheduler.log

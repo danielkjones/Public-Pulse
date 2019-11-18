@@ -16,7 +16,7 @@ function triggerTweetFetcher() {
 
 
 function initializeScheduler() {
-    // refresh at the end of the day (subject to change)
+    // refresh at the end of the daya (subject to change)
     _ = schedule.scheduleJob('0 0 * * * *', () => {
         triggerTweetFetcher();
     })
