@@ -1,0 +1,16 @@
+{
+    "twitter_api": {
+        "secret_name": "prod/twitter/api",
+        "consumer_key": "YcIXq8uEdENAARiFsanLTwUDN",
+        "consumer_secret": "T46jBbiKEJsMn3iNnddEFaffd3FEHYKFliPjyfrftVGtcXkeDd"
+    },
+    "sqs": {
+        "url": "https://sqs.us-east-1.amazonaws.com/830714197270/Test-Queue"
+    },
+    "postgres": {
+        "user": "postgres",
+        "password": "wordpassword",
+        "host": "tweet-dev.c06b2dpgbgob.us-east-1.rds.amazonaws.com",
+        "port": "5432"
+    }
+}
