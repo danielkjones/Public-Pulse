@@ -9,8 +9,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import { ApolloProvider } from "@apollo/react-hooks";
 import ApolloClient from "apollo-boost";
+
 const client = new ApolloClient({
-  uri: "http://localhost:5000/graphql"
+  uri: `http://${window.location.hostname}:5000/graphql`
 });
 
 ReactDOM.render(
