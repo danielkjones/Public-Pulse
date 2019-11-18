@@ -32,13 +32,36 @@ const KEYWORD_EXISTS = gql`
   query keywordExists($word: String!) {
     keywordByWord(word: $word) {
       id
+      active
+    }
+  }
+`;
+
+const MAKE_KEYWORD_ACTIVE = gql`
+  mutation markKeywordInactive($word: String!, $clientMutationId: String) {
+    updateKeywordByWord(
+      input: {
+        clientMutationId: $clientMutationId
+        word: $word
+        keywordPatch: { active: true }
+      }
+    ) {
+      keyword {
+        word
+        active
+      }
     }
   }
 `;
 
 export default ({ onAdd }) => {
   let [inputValue, setInputValue] = useState("");
-  let input;
+
+  const [makeKeywordActive] = useMutation(MAKE_KEYWORD_ACTIVE);
+  const [
+    addKeyword,
+    { loading: addKeywordLoading, error: addKeywordError }
+  ] = useMutation(ADD_KEYWORD);
   let [
     seeIfKeewordExists,
     {
@@ -51,11 +74,8 @@ export default ({ onAdd }) => {
     fetchPolicy: "cache-and-network"
   });
   const keywordAlreadyExists = data && data.keywordByWord;
-
-  const [
-    addKeyword,
-    { loading: addKeywordLoading, error: addKeywordError }
-  ] = useMutation(ADD_KEYWORD);
+  const keywordAlreadyExistsAndIsActive =
+    keywordAlreadyExists && data.keywordByWord.active;
 
   return (
     <Container>
@@ -69,7 +89,7 @@ export default ({ onAdd }) => {
           {addKeywordError && (
             <Alert color="danger">Error tracking hashtag</Alert>
           )}
-          {keywordAlreadyExists && (
+          {keywordAlreadyExists && keywordAlreadyExistsAndIsActive && (
             <Alert color="primary">
               Cannot add hashtag - it is already being tracked
             </Alert>
@@ -82,26 +102,39 @@ export default ({ onAdd }) => {
             }}
           ></input>
           {seeIfKeywordExistsLoading && <Spinner></Spinner>}
-          {!seeIfKeywordExistsLoading && (
+          {!seeIfKeywordExistsLoading && !keywordAlreadyExistsAndIsActive && (
             <Button
               disabled={
                 addKeywordLoading ||
                 !inputValue ||
-                keywordAlreadyExists ||
+                (keywordAlreadyExists && keywordAlreadyExistsAndIsActive) ||
                 keywordAlreadyExistsError
               }
               onClick={() => {
-                let id = getRandomInt(10000000);
-                addKeyword({
-                  variables: {
-                    word: inputValue,
-                    clientMutationId: uuidv1(),
-                    id: id
-                  }
-                }).finally(() => {
-                  setInputValue("");
-                  onAdd();
-                });
+                if (keywordAlreadyExists) {
+                  makeKeywordActive({
+                    variables: {
+                      word: inputValue,
+                      clientMutationId: uuidv1()
+                    }
+                  }).finally(() => {
+                    setInputValue("");
+                    seeIfKeewordExists({ variables: { word: "" } })
+                    onAdd();
+                  });
+                } else {
+                  let id = getRandomInt(10000000);
+                  addKeyword({
+                    variables: {
+                      word: inputValue,
+                      clientMutationId: uuidv1(),
+                      id: id
+                    }
+                  }).finally(() => {
+                    setInputValue("");
+                    onAdd();
+                  });
+                }
               }}
             >
               Add Hashtag

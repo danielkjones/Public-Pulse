@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import QueryView from "./QueryView";
 import FakeData from "./testData.json";
 import QueriesView from "./QueriesView";
+import {Button} from "reactstrap"
 
 import "./App.css";
 
@@ -13,20 +14,9 @@ const App = () => {
       {!queryIdAndWord   && <QueriesView setQueryIdAndWord={setQueryIdAndWord}/>}
       {queryIdAndWord && (
         <React.Fragment>
-          <h1>Tweets for query: {queryIdAndWord.word}</h1>
-          <button onClick={() => setQueryIdAndWord("")}>Clear Query</button>
-          <QueryView
-            data={FakeData.filter(tweet => {
-              let missingAHashtag = false;
-              queryIdAndWord.word.split(",").forEach(hashtag => {
-                if (!tweet.hashTags.includes(hashtag)) {
-                  missingAHashtag = true;
-                }
-              });
-
-              return !missingAHashtag;
-            })}
-          />
+          <h1>Tweets for hashtag: {queryIdAndWord.word}</h1>
+          <Button onClick={() => setQueryIdAndWord("")}>Clear hastag</Button>
+          <QueryView queryString={queryIdAndWord.word}/>
         </React.Fragment>
       )}
     </div>

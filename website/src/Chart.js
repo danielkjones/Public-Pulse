@@ -80,9 +80,9 @@ export default class Example extends PureComponent {
           {/* <Tooltip content={<CustomTooltip />} /> */}
 
           <Legend />
-          <Bar dataKey="avgNegativeSentiment" stackId="a" fill="#ff7675" />
-          <Bar dataKey="avgNeutralSentiment" stackId="a" fill="#b2bec3" />
-          <Bar dataKey="avgPositiveSentiment" stackId="a" fill="#00b894" />
+          <Bar dataKey="Number of negative tweets" stackId="a" fill="#ff7675" />
+          <Bar dataKey="Number of neutral tweets" stackId="a"  fill="#b2bec3"/>
+          <Bar dataKey="Number of positive tweets" stackId="a" fill="#00b894" />
 
         </BarChart>
       </div>

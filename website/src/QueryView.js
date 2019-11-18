@@ -1,76 +1,117 @@
-import React from "react"
-import Chart from "./Chart"
+import React from "react";
+import Chart from "./Chart";
+import { Spinner } from "reactstrap";
 import { useLazyQuery, useMutation, useQuery } from "@apollo/react-hooks";
 import { gql } from "apollo-boost";
 
 const GET_TWEETS = gql`
-  {
-    allTweets {
-      edges {
-        node {
-          word
-          id
+  query getTweetsForKeyword($word: String!) {
+    keywordByWord(word: $word) {
+      word
+      id
+      active
+      tweetsByKeyword {
+        nodes {
+          positive
+          neutral
+          negative
+          timeTweeted
         }
       }
     }
   }
 `;
 
+const sentiment = {
+  POSITIVE: "POSITIVE",
+  NEGATIVE: "NEGATIVE",
+  NEUTRAL: "NEUTRAL"
+};
+
+const determineSentiment = tweet => {
+  if (tweet.positive >= tweet.neutral && tweet.positive >= tweet.negative) {
+    return sentiment.POSITIVE;
+  } else if (
+    tweet.neutral >= tweet.positive &&
+    tweet.neutral >= tweet.negative
+  ) {
+    return sentiment.NEUTRAL;
+  } else {
+    return sentiment.NEGATIVE;
+  }
+};
 
 const analyzeData = data => {
-    let days = {};
-  
-    data.forEach(tweet => {
-      let formattedDay = new Date(tweet.date).toLocaleString().split(",")[0];
-  
-      if (!days[formattedDay]) {
-        days[formattedDay] = {
-          numTweets: 1,
-          sumPositiveSentiment: tweet.sentiment.positive,
-          sumNegativeSentiment: tweet.sentiment.negative,
-          sumNeutralSentiment: tweet.sentiment.neutral
-        };
-      } else {
-        days[formattedDay] = {
-          numTweets: days[formattedDay].numTweets + 1,
-          sumPositiveSentiment:
-            days[formattedDay].numTweets + tweet.sentiment.positive,
-          sumNegativeSentiment:
-            days[formattedDay].numTweets + tweet.sentiment.negative,
-          sumNeutralSentiment:
-            days[formattedDay].numTweets + tweet.sentiment.neutral
-        };
-      }
-    });
-  
-    let summedDataByDay = Object.keys(days).map(day => {
-      return {
-        day,
-        ...days[day]
-      };
-    });
-  
-    return summedDataByDay.map(day => {
-      //   here we will calculate average sentiment over all tweets
-      // by dividing the sum by the number of tweets
-      return {
-        ...day,
-        avgPositiveSentiment: day.sumPositiveSentiment / day.numTweets || 0,
-        avgNegativeSentiment: day.sumNegativeSentiment / day.numTweets || 0,
-        avgNeutralSentiment: day.sumNeutralSentiment / day.numTweets || 0
-      };
-    });
-  };
+  let days = {};
 
-export default ({queryString, data}) => {
-    // let {called, loading, data, } = useQuery(GET_TWEETS)
+  data.forEach(tweet => {
+    let formattedDay = new Date(tweet.timeTweeted)
+      .toLocaleString()
+      .split(",")[0];
+    const tweetSentiment = determineSentiment(tweet);
 
-    let sortedData = data.sort((a, b) => (a.date > b.date ? 1 : -1));
+    if (!days[formattedDay]) {
+      days[formattedDay] = {
+        numTweets: 0,
+        "Number of positive tweets": 0,
+        "Number of negative tweets": 0,
+        "Number of neutral tweets": 0
+      };
+    }
+    if (tweetSentiment === sentiment.POSITIVE) {
+      days[formattedDay] = {
+        numTweets: days[formattedDay].numTweets + 1,
+        "Number of positive tweets": days[formattedDay]["Number of positive tweets"] + 1,
+        "Number of negative tweets": days[formattedDay]["Number of negative tweets"] + 0,
+        "Number of neutral tweets": days[formattedDay]["Number of neutral tweets"] + 0
+      };
+    } else if (tweetSentiment === sentiment.NEUTRAL) {
+      days[formattedDay] = {
+        numTweets: days[formattedDay].numTweets + 1,
+        "Number of positive tweets": days[formattedDay]["Number of positive tweets"] + 0,
+        "Number of negative tweets": days[formattedDay]["Number of negative tweets"] + 1,
+        "Number of neutral tweets": days[formattedDay]["Number of neutral tweets"] + 0
+      };
+    } else {
+      days[formattedDay] = {
+        numTweets: days[formattedDay].numTweets + 1,
+        "Number of positive tweets": days[formattedDay]["Number of positive tweets"] + 0,
+        "Number of negative tweets": days[formattedDay]["Number of negative tweets"] + 0,
+        "Number of neutral tweets": days[formattedDay]["Number of neutral tweets"] + 1
+      };
+    }
+  });
+
+  let summedDataByDay = Object.keys(days).map(day => {
+    return {
+      day,
+      ...days[day]
+    };
+  });
+  console.log(summedDataByDay)
+  return summedDataByDay;
+};
+
+export default ({ queryString }) => {
+  let { called, loading, data, error } = useQuery(GET_TWEETS, {
+    variables: { word: queryString }
+  });
+  if (error) {
+    return <code>{JSON.stringify(error)}</code>;
+  } else if (called && !loading) {
+    console.log(data);
+    let tweets = data.keywordByWord.tweetsByKeyword.nodes;
+    let sortedData = tweets.sort((a, b) =>
+      a.timeTweeted > b.timeTweeted ? 1 : -1
+    );
     const analyzedData = analyzeData(sortedData);
+    console.log(analyzedData);
     return (
-        <div>
-            <h1>{queryString}</h1>
-            <Chart data={analyzedData} />
-        </div>
-    )
-}
+      <div>
+        <Chart data={analyzedData} />
+      </div>
+    );
+  } else {
+    return <Spinner />;
+  }
+};

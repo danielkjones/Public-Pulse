@@ -18,13 +18,16 @@ import { gql } from "apollo-boost";
 import { useLazyQuery, useMutation } from "@apollo/react-hooks";
 import AddQuery from "./AddQuery";
 
+import uuid from "uuid/v1"
+
 const GET_KEYWORDS = gql`
   {
     allKeywords {
       edges {
         node {
           word
-          id
+          id,
+          active
         }
       }
     }
@@ -32,17 +35,23 @@ const GET_KEYWORDS = gql`
 `;
 
 const DELETE_KEYWORD = gql`
-  mutation deleteKeyword($id: Int!) {
-    deleteKeywordById(input: { id: $id }) {
-      deletedKeywordId
+  mutation deleteKeyword($word: String!, $clientMutationId: String) {
+    updateKeywordByWord(input: {clientMutationId: $clientMutationId, word: $word, keywordPatch: {
+      active: false
+    }}){
+      keyword {
+        word,
+        active
+      }
     }
   }
 `;
 
 export default ({ setQueryIdAndWord }) => {
-  let [loadKeywords, { called, loading, data, error, refetch, networkStatus }] = useLazyQuery(
-    GET_KEYWORDS
-  );
+  let [
+    loadKeywords,
+    { called, loading, data, error, refetch, networkStatus }
+  ] = useLazyQuery(GET_KEYWORDS);
   const [deleteKeyword, { loading: deleteKeywordLoading }] = useMutation(
     DELETE_KEYWORD
   );
@@ -54,14 +63,6 @@ export default ({ setQueryIdAndWord }) => {
     <Container>
       <Row>
         <Col>
-          {JSON.stringify({
-            called: called,
-            loading: loading,
-            data: data,
-            error: error,
-            refetch: refetch,
-            networkStatus: networkStatus
-          }, null, 4)}
           <AddQuery
             onAdd={() => {
               console.log("loaded queries");
@@ -77,28 +78,32 @@ export default ({ setQueryIdAndWord }) => {
           )}
           <ListGroup>
             {data &&
-              data.allKeywords.edges.map(item => (
-                <ListGroupItem>
-                  <p onClick={() => setQueryIdAndWord(item.node)}>
-                    {JSON.stringify(item.node.word)}
-                  </p>
-                  <Button
-                    onClick={() =>
-                      deleteKeyword({
-                        variables: {
-                          id: item.node.id
-                        }
-                      })
-                      .finally(() => {
-                        refetch()
-                      })
-                    }
-                    disabled={deleteKeywordLoading}
-                  >
-                    Remove
-                  </Button>
-                </ListGroupItem>
-              ))}
+              data.allKeywords.edges
+                .filter(item => {
+                  return item.node.active === true;
+                })
+                .map(item => (
+                  <ListGroupItem>
+                    <p onClick={() => setQueryIdAndWord(item.node)}>
+                      {JSON.stringify(item.node.word)}
+                    </p>
+                    <Button
+                      onClick={() =>
+                        deleteKeyword({
+                          variables: {
+                            word: item.node.word,
+                            clientMutationId: uuid(),
+                          }
+                        }).finally(() => {
+                          refetch();
+                        })
+                      }
+                      disabled={deleteKeywordLoading}
+                    >
+                      Remove
+                    </Button>
+                  </ListGroupItem>
+                ))}
             {loading && (
               <ListGroupItem>
                 <Spinner />
