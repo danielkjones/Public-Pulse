@@ -13,7 +13,7 @@ def main():
             positive = random.random()
             negative = random.random()
             neutral = random.random()
-            line = f"INSERT INTO tweets (tweet_id, keyword, tweet_text, positive, negative, neutral, time_tweeted, resp) VALUES ({tweet_id}, 1, {tweet_text}, {positive}, {negative}, {neutral}, {timestamp}, $tweetresp${json.dumps(t)}$tweetresp$);"
+            line = f"INSERT INTO tweets (tweet_id, keyword, tweet_text, positive, negative, neutral, time_tweeted, resp) VALUES ({tweet_id}, 6163160, {tweet_text}, {positive}, {negative}, {neutral}, {timestamp}, $tweetresp${json.dumps(t)}$tweetresp$);"
             f.write(line)
         f.close()
 
