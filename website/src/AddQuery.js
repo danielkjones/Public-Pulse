@@ -3,6 +3,7 @@ import { Container, Row, Col, Spinner, Button, Alert } from "reactstrap";
 import { gql } from "apollo-boost";
 import { useLazyQuery, useMutation } from "@apollo/react-hooks";
 import uuidv1 from "uuid/v1";
+import axios from "axios"
 
 const getRandomInt = max => {
   return Math.floor(Math.random() * Math.floor(max));
@@ -117,6 +118,8 @@ export default ({ onAdd }) => {
                       word: inputValue,
                       clientMutationId: uuidv1()
                     }
+                  }).then(() => {
+                    axios.get("https://wxk312x9i2.execute-api.us-east-1.amazonaws.com/default/Test-Queue-Function")
                   }).finally(() => {
                     setInputValue("");
                     seeIfKeewordExists({ variables: { word: "" } })
@@ -130,6 +133,8 @@ export default ({ onAdd }) => {
                       clientMutationId: uuidv1(),
                       id: id
                     }
+                  }).then(() =>{
+                    axios.get("https://wxk312x9i2.execute-api.us-east-1.amazonaws.com/default/Test-Queue-Function")
                   }).finally(() => {
                     setInputValue("");
                     onAdd();
