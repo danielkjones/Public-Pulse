@@ -15,3 +15,5 @@ CREATE TABLE tweets (
 	time_tweeted TIMESTAMP,
   	resp JSONB -- The full resp of the tweet from the api call (incase there's fields we want later)
 );
+
+CREATE INDEX ON "public"."tweets"("keyword");
