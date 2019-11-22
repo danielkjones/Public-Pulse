@@ -1,36 +1,23 @@
 import React, { useState } from "react";
-import "./App.css";
-import Chart from "./Chart";
 import QueryView from "./QueryView";
 import FakeData from "./testData.json";
 import QueriesView from "./QueriesView";
+import {Button} from "reactstrap"
+
+import "./App.css";
+
 
 const App = () => {
-  const availableQueries = ["#trump", "#hillary", "#elon,#tesla"];
-
-  const [query, setQuery] = useState(availableQueries[0]);
+  const [queryIdAndWord, setQueryIdAndWord] = useState("");
   return (
     <div className="App">
-      {query && (
+      {!queryIdAndWord   && <QueriesView setQueryIdAndWord={setQueryIdAndWord}/>}
+      {queryIdAndWord && (
         <React.Fragment>
-          <h1>Tweets for query: {query}</h1>
-          <button onClick={() => setQuery("")}>Clear Query</button>
-          <QueryView
-            data={FakeData.filter(tweet => {
-              let missingAHashtag = false
-              query.split(",").forEach(hashtag => {
-                if(!tweet.hashTags.includes(hashtag)){
-                  missingAHashtag = true
-                }
-              })
-
-              return !missingAHashtag
-            })}
-          />
+          <h1>Tweets for hashtag: {queryIdAndWord.word}</h1>
+          <Button onClick={() => setQueryIdAndWord("")}>Clear hastag</Button>
+          <QueryView queryString={queryIdAndWord.word}/>
         </React.Fragment>
-      )}
-      {!query && (
-        <QueriesView queriesList={availableQueries} setQuery={setQuery} />
       )}
     </div>
   );
