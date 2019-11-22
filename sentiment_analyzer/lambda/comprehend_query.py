@@ -4,13 +4,17 @@ import psycopg2
 
 
 comprehend = boto3.client('comprehend')
-creds = "dbname=tweet_db user=adminuser host=tweetdb.c0dnyygelykr.us-east-1.rds.amazonaws.com password=adminpass"
+creds = "user=postgres host=tweet-dev.c06b2dpgbgob.us-east-1.rds.amazonaws.com password=wordpassword"
 
 
 def lambda_handler(event, context):
+    event = event['Records'][0]
+    event = event['body']
+    print(event)
+    event = json.loads(event)
+    event = json.loads(event)
     sentiment = comprehend.detect_sentiment(Text=event['tweet_text'], LanguageCode='en')
     try:
-        print('here')
         conn = psycopg2.connect(creds)
         cursor = conn.cursor()
         cursor.execute("""
