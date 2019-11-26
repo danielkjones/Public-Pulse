@@ -6,6 +6,9 @@ https://tweepy.readthedocs.io/en/latest/getting_started.html
 Some potential tips for using the search API:
 https://bhaskarvk.github.io/2015/01/how-to-use-twitters-search-rest-api-most-effectively./
 
+
+RATE LIMIT: 180 requests / 15 minutes -> MAX 18,000 tweets / 15 minutes
+
 """
 import tweepy
 import json
@@ -83,10 +86,7 @@ def _send_tweet_info(tweet, keyword_id):
     message_dict = _build_message_dict(tweet, keyword_id)
     message_body = json.dumps(message_dict)
     message_body = _remove_escape_characters(message_body)
-    if os.environ.get('PROD'):
-        send_message_to_sqs(message_body, Config().sqs["url"])
-    else:
-        print(message_body)
+    send_message_to_sqs(message_body, Config().sqs["url"])
 
 
 if __name__ == "__main__":
