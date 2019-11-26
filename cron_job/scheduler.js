@@ -1,22 +1,27 @@
 var schedule = require('node-schedule');
 var Axios = require('axios');
-
+const fs = require('fs');
 
 function triggerTweetFetcher() {
-    const uri = 'https://wxk312x9i2.execute-api.us-east-1.amazonaws.com/default/Test-Queue-Function';
-    console.log('Tweet Fetcher Triggered at ' + Date.now());
-    Axios.get(uri)
-        .then((res) => {
-            console.log(res);
-        })
-        .catch((err) => {
-            console.log(err);
-        })
+    fs.readFile('config.json', (err, data) => {
+        if (err) throw err;
+        let configs = JSON.parse(data); 
+        let uri = configs.apiGatewayUri;
+        console.log('Tweet Fetcher Triggered at ' + Date.now());
+        console.log(uri)
+        Axios.get(uri)
+            .then((res) => {
+                console.log(res);
+            })
+            .catch((err) => {
+                console.log(err);
+            })
+    })
 }
 
 
 function initializeScheduler() {
-    // refresh at the end of the daya (subject to change)
+    // refresh every hour
     _ = schedule.scheduleJob('0 0 * * * *', () => {
         triggerTweetFetcher();
     })
