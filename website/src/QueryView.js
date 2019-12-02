@@ -69,15 +69,15 @@ const analyzeData = data => {
       days[formattedDay] = {
         numTweets: days[formattedDay].numTweets + 1,
         "Number of positive tweets": days[formattedDay]["Number of positive tweets"] + 0,
-        "Number of negative tweets": days[formattedDay]["Number of negative tweets"] + 1,
-        "Number of neutral tweets": days[formattedDay]["Number of neutral tweets"] + 0
+        "Number of negative tweets": days[formattedDay]["Number of negative tweets"] + 0,
+        "Number of neutral tweets": days[formattedDay]["Number of neutral tweets"] + 1
       };
     } else {
       days[formattedDay] = {
         numTweets: days[formattedDay].numTweets + 1,
         "Number of positive tweets": days[formattedDay]["Number of positive tweets"] + 0,
-        "Number of negative tweets": days[formattedDay]["Number of negative tweets"] + 0,
-        "Number of neutral tweets": days[formattedDay]["Number of neutral tweets"] + 1
+        "Number of negative tweets": days[formattedDay]["Number of negative tweets"] + 1,
+        "Number of neutral tweets": days[formattedDay]["Number of neutral tweets"] + 0
       };
     }
   });
